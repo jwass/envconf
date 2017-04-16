@@ -33,14 +33,14 @@ IPython Extension
 =================
 ``enviro`` also provides an IPython extension so that it is always easily available as a line magic function without the need to import:
 
-.. code-block::
+.. code-block:: pycon
 
     $ ipython
     In [1]: %enviro
 
 As above, it reads ``.env`` in the current directory by default, but an alternate file can be specified on the line:
 
-.. code-block::
+.. code-block:: pycon
 
     In [1]: %enviro production.env
 
